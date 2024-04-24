@@ -16,7 +16,10 @@ body {
     flex-direction: column;
     align-items: center;
     background: url(blue.jpg) no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .speaker-form-header {
