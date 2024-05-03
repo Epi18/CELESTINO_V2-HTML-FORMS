@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry Shack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="burger bliss 5.jpg" alt="Description of the image" width="150px" class="logo">
+
+    <header class="speaker-form-header">
+    <h1>
+        Order Form
+    </h1>
+    <p>
+        <em>
+            Would you like to place an order at my store? 
+            Fill out this form.
+        </em>
+    </p>
+    </header>
+        <form action="" method="get" class="speaker-form">
+            <div class="form-row">
+                <label for="full name">Name:</label>
+                <input id="full-name" name="full-name" type="email"/>
+            </div>
+
+            <div class="form-row">
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="email" placeholder="ex: celestino@gmail.com"/>
+            </div>
+
+            <div class="form-row">
+                <label for="age">Age:</label>
+                <input id="Age" name="Age" type="email"/>
+            </div>
+            
+            <fieldset class="legacy-form-row">
+                <input type="radio" name="shipping" id="rad1" value="mainstage">
+                <label for="mainstage">Dine-in</label>
+                <input type="radio" name="shipping" id="rad2" value="workshop">
+                <label for="workshop">Take-out</label>
+            </fieldset>
+
+            <div class='form-row'> 
+                <label for='t-shirt'>Mode of payment:</label> 
+                <select id='t-shirt' name='t-shirt'> 
+                  <option value='xs'>Cash</option> 
+                  <option value='s'>Gcash</option> 
+                  <option value='m'>PayMaya</option> 
+                  <option value='l'>Debit/Credit</option> 
+                </select> 
+              </div>
+              
+            <div class="dropdown">
+                <button class="dropdown-button">Menu</button>
+                <div class="dropdown-content">
+                  <a href="#">Burgers</a>
+                  <ul class="submenu">
+                    <li><a href="#">Classic Burger</a></li>
+                    <li><a href="#">Cheeseburger</a></li>
+                    <li><a href="#">Veggie Burger</a></li>
+                    <li><a href="#">Chicken Burger</a></li>
+                    <li><a href="#">Fish Burger</a></li>
+                  </ul>
+                  <a href="#">Sides</a>
+                  <ul class="submenu">
+                    <li><a href="#">Fries</a></li>
+                    <li><a href="#">Onion Rings</a></li>
+                  </ul>
+                  <a href="#">Drinks</a>
+                  <ul class="submenu">
+                    <li><a href="#">Milkshake</a></li>
+                    <li><a href="#">Soft Drink</a></li>
+                  </ul>
+                  <a href="#">Desserts</a>
+                  <ul class="submenu">
+                    <li><a href="#">Ice Cream Sundae</a></li>
+                  </ul>
+                </div>
+              </div>
+              
+              <script src="script.js"></script>
+
+            <div class='form-row'> 
+                <label for='abstract'>Comments:</label> 
+                <textarea id='abstract' name='abstract'></textarea> 
+                <div class='instructions'>Describe your talk in 500 words or less</div> </div> 
+            
+            <div class="button">
+              <a href="" class="btn1">Place Order</a>
+              <a href="" class="btn2">Cancel</a>
+            </div>
+                
+        </form>
+    </body>
+</html>
+
+      
