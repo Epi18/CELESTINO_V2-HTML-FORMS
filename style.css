@@ -179,12 +179,12 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 8px;
     position: absolute;
-    top: 97%;
+    top: 123%;
     left: 44%;
     transform: translate(-50%, -50%);
 }
@@ -197,12 +197,12 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 8px;
     position: absolute;
-    top: 97%;
+    top: 123%;
     left: 57%;
     transform: translate(-50%, -50%);
 }
@@ -242,11 +242,6 @@ body {
         margin-left: 90px;
         color: #cfb20b;
         font-family: 'Clarendon Blk BT';
-    }
-    .button {
-        font-size: 16px;
-        padding: 3px 15px;
-        margin-bottom: -10px;
     }
 }
 
